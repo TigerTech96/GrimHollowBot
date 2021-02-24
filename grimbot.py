@@ -105,7 +105,7 @@ async def change_status():
 #    membersplit = str(member)
 #    member_name , member_discriminator = membersplit.split('#')
 #    print(f'{member} has joined the server!')
-#    await channel.send(f'Welcome to Astral Squadron CMDR {member_name} o7! Please take a moment to read the rules before asking for a role')
+#    await channel.send(f'Welcome to Grim Hollow {member_name} ! Please take a moment to read the rules before asking for a role')
 
 
 #this detects if a member has left the server and pushes a message to a channel to 
