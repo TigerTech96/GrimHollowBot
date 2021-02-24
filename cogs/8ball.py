@@ -12,7 +12,7 @@ class Games(commands.Cog):
         print('Loaded Games....')
 
 	#this command responds to a question and returns a random answer
-    @commands.command(aliases=['8ball', 'test'])
+    @commands.command()
     async def fortune(self, ctx, * , question):
 
         responses = [' It is certain.',
