@@ -6,8 +6,6 @@ intents.members = True
 intents.presences = True
 intents.messages = True
 #these Intents are what user data the bot is allowed to collect in the course of it's duties
-#it does NOT mean it collects this data idly, it simply means that if called for in a function described in this file or
-#cog file, it may collect it to complete the requested function
 #.members collects data related to members, and in this bot is used to determine what user joins and what user leaves
 #.presences is currently only used to detect if a user reacts to a message, but it could be used to detect if a user is
 #online or not
