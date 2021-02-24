@@ -49,8 +49,9 @@ logger.addHandler(handler)
 
 
 
-#this sets the bots command prefix, 
+#this sets the bots command prefix
 client = commands.Bot(command_prefix = '>' , intents = intents)
+#this is the status list a later command will cycle through in the background
 status = cycle(['Dead by Daylight 2' , 'Games'])
 #do not touch this at all, this is how the bot knows where it's extensions are
 print('Loading extensions.....')
