@@ -1,4 +1,4 @@
-#There are our initial imports, each one should have a description underneath for clarity as to why it is needed
+#These are our initial library imports, each one should have a description underneath for clarity as to why it is needed
 import discord
 #of course to use the discord API we must import discord's python library
 intents = discord.Intents.default()
